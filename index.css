@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+@font-face {
+    font-family: CSfont;
+    src: url(font/cs_regular.ttf);
+}
+body{
+    background-color: #1f2937;
+}
+header{
+    background-color: #1c2634;
+    display: flex;
+    justify-content: center;
+}
+#header-nadpis{
+    display: flex;
+    align-items: center;
+    height: 7.5vh;
+}
+#header-nadpis h1{
+    font-family: CSfont;
+    font-size: 3.5em;
+    letter-spacing: 2.5px;
+}
