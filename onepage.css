@@ -73,14 +73,14 @@ a{
 #main{
     font-family: 'Poppins', sans-serif;
 }
-#article-1, #article-2, #article-3, #article-4, #article-5{
+#article-1, #article-2, #article-3, #article-4, #article-5, #article-6{
     display: flex;
     height: 250px;
     width: 1050px;
     background-color: #090d13;
     border: 1px solid #141b25;
 }
-#article-1 img, #article-2 img, #article-3 img, #article-4 img, #article-5 img{
+#article-1 img, #article-2 img, #article-3 img, #article-4 img, #article-5 img, #article-6 img{
     width: 350px;
     height: 100%;
 }
@@ -88,7 +88,7 @@ a{
     margin-top: 100px;
     margin-left: 15%;
 }
-#article-1-text h2, .article-2-text h2, #article-3-text h2, #article-4-text h2, #article-5-text h2, p{
+#article-1-text h2, .article-2-text h2, #article-3-text h2, #article-4-text h2, #article-5-text h2, #article-6-text h2, p{
     margin: 15px;
 }
 #article-2{
@@ -115,6 +115,10 @@ a{
 #article-5{
     margin-top: 200px;
     margin-left: 15%;
+}
+#article-6{
+    margin-top: 50px;
+    margin-left: 22.5%;
 }
 .articles-nadpis{
     display: flex;
